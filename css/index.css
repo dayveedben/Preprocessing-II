@@ -180,11 +180,19 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-div.nav {
+.header {
+  box-sizing: border-box;
   display: flex;
+  margin: 2rem;
 }
-div.nav nav a {
+.header .navbar {
+  padding-left: 30%;
+}
+.header .navbar a {
+  font-size: 2rem;
+  justify-content: space-between;
   justify-content: flex-end;
+  padding: 2rem;
 }
 .footer {
   width: 100%;
